@@ -1,0 +1,29 @@
+Threshold sweep (top-1 accuracy / no-match rejection):
+  0.20: 24/25 = 96.0%   9/10 = 90.0%
+  0.25: 22/25 = 88.0%   10/10 = 100.0%
+  0.30: 20/25 = 80.0%   10/10 = 100.0%
+  0.35: 19/25 = 76.0%   10/10 = 100.0%
+  0.40: 18/25 = 72.0%   10/10 = 100.0%
+  0.45: 16/25 = 64.0%   10/10 = 100.0%
+  0.50: 15/25 = 60.0%   10/10 = 100.0%
+  0.55: 14/25 = 56.0%   10/10 = 100.0%
+
+Using threshold 0.25
+Top-1 member accuracy : 22/25 = 88.0%
+No-match rejection    : 10/10 = 100.0%
+
+Confusion matrix (rows = expected, columns = predicted):
+           m1    m2    m3    m4    m5  none
+     m1     5     0     0     0     0     0
+     m2     0     4     0     0     0     1
+     m3     0     0     5     0     0     0
+     m4     0     0     0     4     0     1
+     m5     0     0     0     0     4     1
+   none     0     0     0     0     0    10
+
+Error table (3 errors):
+  [skill] 'Who knows Python?': expected=m2 got=None conf=0.1164
+  [skill] 'Who knows React Native?': expected=m4 got=None conf=0.2223
+  [skill] 'Who knows AsyncStorage?': expected=m5 got=None conf=0.2436
+
+Summary written to model/metadata.json

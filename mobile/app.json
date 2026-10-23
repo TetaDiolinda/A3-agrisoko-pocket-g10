@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "AgriSoko Pocket G10",
+    "slug": "agrisoko-pocket-g10",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "rw.ac.ines.agrisokopocket.g10",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "apiBaseUrl": "http://10.0.2.2:8000",
+      "groupCode": "G10",
+      "githubUrl": "https://github.com/REPLACE_WITH_GITHUB_ORG/agrisoko-pocket-g10",
+      "eas": {
+        "projectId": "b4a04888-3a0e-440a-967c-18eb7c680703"
+      }
+    },
+    "owner": "tetadiolinda"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.expo/
+*.pyc
+.env
+build/*.apk

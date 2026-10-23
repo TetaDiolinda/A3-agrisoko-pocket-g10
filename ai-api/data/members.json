@@ -1,0 +1,221 @@
+[
+  {
+    "id": "m1",
+    "fullName": "Kiir Kiir Deng Kur",
+    "registrationNumber": "24/24671",
+    "aliases": [
+      "M1",
+      "Product Lead",
+      "Team Lead",
+      "Kiir",
+      "Deng"
+    ],
+    "githubUsername": "Ug2424671-collab",
+    "role": "Product and GitHub lead; evidence engineer",
+    "skills": [
+      "backlog management",
+      "GitHub issues and releases",
+      "project home screen",
+      "about and evidence screen",
+      "documentation"
+    ],
+    "targetUser": "Potato cooperative members, employers and innovation partners visiting the AgriSoko demonstration in Musanze",
+    "problem": "Cooperative members, employers and partners in Musanze cannot quickly see who built which part of AgriSoko Pocket and what evidence supports it.",
+    "contribution": "Built the project home screen and the about and evidence screen of the app and managed the backlog, repository, v1.0.0 tag and final submission package.",
+    "feature": "project home and about and evidence screens",
+    "outcomeMetric": "",
+    "testerFeedback": [],
+    "evidenceLinks": [
+      {
+        "label": "Repository",
+        "url": "https://github.com/TetaDiolinda/A3-agrisoko-pocket-g10"
+      },
+      {
+        "label": "v1.0.0 release (APK)",
+        "url": "https://github.com/REPLACE_WITH_GITHUB_ORG/agrisoko-pocket-g10/releases/tag/v1.0.0"
+      },
+      {
+        "label": "Demo video timestamp",
+        "url": ""
+      }
+    ],
+    "introductionDraft": "My name is Kiir Kiir Deng Kur. I am the product and GitHub lead of AgriSoko Pocket G10. I built the project home and the about and evidence screens so that visitors in Musanze can see what the app is for, which version they are running and where the data comes from, and I managed the backlog, release tag and submission package."
+  },
+  {
+    "id": "m2",
+    "fullName": "MANZI Prince Peter",
+    "registrationNumber": "25/28149",
+    "aliases": [
+      "M2",
+      "AI Engineer",
+      "Data Engineer",
+      "Manzi",
+      "Prince"
+    ],
+    "githubUsername": "2528149-cell",
+    "role": "AI and data engineer",
+    "skills": [
+      "Python",
+      "pandas",
+      "scikit-learn",
+      "TF-IDF",
+      "cosine similarity",
+      "model evaluation",
+      "members.json schema"
+    ],
+    "targetUser": "Visitors who ask a natural-language question about a team member",
+    "problem": "Cooperative members, employers and partners in Musanze cannot quickly see who built which part of AgriSoko Pocket and what evidence supports it.",
+    "contribution": "Designed the members.json schema and built the TF-IDF matching engine, the confidence threshold, the no-match rule and the evaluation script.",
+    "feature": "TF-IDF matching engine and no-match confidence threshold",
+    "outcomeMetric": "",
+    "testerFeedback": [],
+    "evidenceLinks": [
+      {
+        "label": "Repository",
+        "url": "https://github.com/TetaDiolinda/A3-agrisoko-pocket-g10"
+      },
+      {
+        "label": "v1.0.0 release (APK)",
+        "url": "https://github.com/REPLACE_WITH_GITHUB_ORG/agrisoko-pocket-g10/releases/tag/v1.0.0"
+      },
+      {
+        "label": "Demo video timestamp",
+        "url": ""
+      }
+    ],
+    "introductionDraft": "My name is MANZI Prince Peter. I am the AI and data engineer of AgriSoko Pocket G10. I built the TF-IDF matching engine that finds the best team member for a question, the confidence threshold that rejects vague questions, and the evaluation script that measures top-1 accuracy and no-match rejection."
+  },
+  {
+    "id": "m3",
+    "fullName": "UMUTONI Liliane",
+    "registrationNumber": "25/28965",
+    "aliases": [
+      "M3",
+      "API Engineer",
+      "Integration Engineer",
+      "Umutoni",
+      "Liliane"
+    ],
+    "githubUsername": "lilianeumutoni302",
+    "role": "API and integration engineer",
+    "skills": [
+      "FastAPI",
+      "Pydantic",
+      "pytest",
+      "deployment",
+      "logging",
+      "REST API contract"
+    ],
+    "targetUser": "The mobile app and the testers who depend on a reliable online service",
+    "problem": "Cooperative members, employers and partners in Musanze cannot quickly see who built which part of AgriSoko Pocket and what evidence supports it.",
+    "contribution": "Built the FastAPI endpoints health, members, members by id, ask and model-info with Pydantic validation, safe errors, logging and the API tests.",
+    "feature": "FastAPI endpoints and mobile API contract",
+    "outcomeMetric": "",
+    "testerFeedback": [],
+    "evidenceLinks": [
+      {
+        "label": "Repository",
+        "url": "https://github.com/TetaDiolinda/A3-agrisoko-pocket-g10"
+      },
+    
+      {
+        "label": "v1.0.0 release (APK)",
+        "url": "https://github.com/REPLACE_WITH_GITHUB_ORG/agrisoko-pocket-g10/releases/tag/v1.0.0"
+      },
+      {
+        "label": "Demo video timestamp",
+        "url": ""
+      }
+    ],
+    "introductionDraft": "My name is UMUTONI Liliane. I am the API and integration engineer of AgriSoko Pocket G10. I built the FastAPI service with its health, directory, profile, ask and model-info endpoints, validated every request with Pydantic and wrote the API tests that the mobile app relies on."
+  },
+  {
+    "id": "m4",
+    "fullName": "SHYAKA Guy Peter",
+    "registrationNumber": "24/26559",
+    "aliases": [
+      "M4",
+      "Mobile Engineer",
+      "UI Engineer",
+      "Shyaka",
+      "Guy"
+    ],
+    "githubUsername": "peternickson4-max",
+    "role": "Mobile UI and navigation engineer",
+    "skills": [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "React Navigation",
+      "accessibility",
+      "Flexbox layouts"
+    ],
+    "targetUser": "Cooperative members and visitors who use the app on an Android phone",
+    "problem": "Cooperative members, employers and partners in Musanze cannot quickly see who built which part of AgriSoko Pocket and what evidence supports it.",
+    "contribution": "Built the Ask the team screen, the AI result screen, the member directory and the member profile screen with typed navigation and accessible layouts.",
+    "feature": "ask the team screen, result screen, member directory and profile screens",
+    "outcomeMetric": "",
+    "testerFeedback": [],
+    "evidenceLinks": [
+      {
+        "label": "Repository",
+        "url": "https://github.com/TetaDiolinda/A3-agrisoko-pocket-g10"
+      },
+      {
+        "label": "v1.0.0 release (APK)",
+        "url": "https://github.com/REPLACE_WITH_GITHUB_ORG/agrisoko-pocket-g10/releases/tag/v1.0.0"
+      },
+      {
+        "label": "Demo video timestamp",
+        "url": ""
+      }
+    ],
+    "introductionDraft": "My name is SHYAKA Guy Peter. I am the mobile UI and navigation engineer of AgriSoko Pocket G10. I built the ask, result, directory and profile screens in React Native with typed navigation and accessible layouts so that a visitor can ask a question and read a clear evidence-based profile on a phone."
+  },
+  {
+    "id": "m5",
+    "fullName": "TETA Diolinda UWASE",
+    "registrationNumber": "25/26870",
+    "aliases": [
+      "M5",
+      "Offline Engineer",
+      "Quality Engineer",
+      "Teta",
+      "Diolinda",
+      "Uwase"
+    ],
+    "githubUsername": "TetaDiolinda",
+    "role": "Offline and quality engineer; release engineer",
+    "skills": [
+      "AsyncStorage",
+      "NetInfo",
+      "caching",
+      "offline mode",
+      "device testing",
+      "EAS build",
+      "APK release"
+    ],
+    "targetUser": "Users in areas with weak or no network, for example cooperative members in Kinigi",
+    "problem": "Cooperative members, employers and partners in Musanze cannot quickly see who built which part of AgriSoko Pocket and what evidence supports it.",
+    "contribution": "Built offline mode with the bundled directory, AsyncStorage cache, NetInfo detection, cache source labels, retry and timeout handling, and produced the EAS Android APK.",
+    "feature": "offline mode, cache and connection recovery",
+    "outcomeMetric": "",
+    "testerFeedback": [],
+    "evidenceLinks": [
+      {
+        "label": "Repository",
+        "url": "https://github.com/TetaDiolinda/A3-agrisoko-pocket-g10"
+      },
+     
+      {
+        "label": "v1.0.0 release (APK)",
+        "url": "https://github.com/REPLACE_WITH_GITHUB_ORG/agrisoko-pocket-g10/releases/tag/v1.0.0"
+      },
+      {
+        "label": "Demo video timestamp",
+        "url": ""
+      }
+    ],
+    "introductionDraft": "My name is TETA Diolinda UWASE. I am the offline and quality engineer of AgriSoko Pocket G10. I built offline lookup with a bundled directory and an AsyncStorage cache, the live, cached and offline source labels, the retry and timeout handling, and I produced the installable Android APK."
+  }
+]

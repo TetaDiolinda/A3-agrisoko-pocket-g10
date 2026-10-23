@@ -1,0 +1,18 @@
+{
+  "modelVersion": "agrisoko-tfidf-1.0.0",
+  "groupCode": "G10",
+  "datasetFingerprint": "24926452630574a24e8c2b40c64b47bfc80f0131cc9af50325bc5401ddb3744a",
+  "memberCount": 5,
+  "threshold": 0.25,
+  "vocabularyWords": 409,
+  "vocabularyChars": 1723,
+  "buildCommit": "unknown",
+  "builtAt": "2026-10-23T12:54:31+00:00",
+  "evaluation": {
+    "threshold": 0.25,
+    "matchQueries": 25,
+    "top1Accuracy": 0.88,
+    "noMatchQueries": 10,
+    "noMatchRejectionAccuracy": 1.0
+  }
+}

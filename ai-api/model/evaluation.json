@@ -1,0 +1,317 @@
+{
+  "threshold": 0.25,
+  "matchQueries": 25,
+  "top1Correct": 22,
+  "top1Accuracy": 0.88,
+  "noMatchQueries": 10,
+  "noMatchRejected": 10,
+  "noMatchRejectionAccuracy": 1.0,
+  "errors": [
+    {
+      "query": "Who knows Python?",
+      "expected": "m2",
+      "got": null,
+      "confidence": 0.1164,
+      "ok": false,
+      "kind": "skill"
+    },
+    {
+      "query": "Who knows React Native?",
+      "expected": "m4",
+      "got": null,
+      "confidence": 0.2223,
+      "ok": false,
+      "kind": "skill"
+    },
+    {
+      "query": "Who knows AsyncStorage?",
+      "expected": "m5",
+      "got": null,
+      "confidence": 0.2436,
+      "ok": false,
+      "kind": "skill"
+    }
+  ],
+  "queries": [
+    {
+      "query": "Tell me about Member One",
+      "expected": "m1",
+      "got": "m1",
+      "confidence": 0.5881,
+      "ok": true,
+      "kind": "name"
+    },
+    {
+      "query": "Who is M1?",
+      "expected": "m1",
+      "got": "m1",
+      "confidence": 0.577,
+      "ok": true,
+      "kind": "alias"
+    },
+    {
+      "query": "Who is the Product and GitHub lead?",
+      "expected": "m1",
+      "got": "m1",
+      "confidence": 0.3457,
+      "ok": true,
+      "kind": "role"
+    },
+    {
+      "query": "Who knows backlog management?",
+      "expected": "m1",
+      "got": "m1",
+      "confidence": 0.2768,
+      "ok": true,
+      "kind": "skill"
+    },
+    {
+      "query": "Who built project home and about and evidence screens?",
+      "expected": "m1",
+      "got": "m1",
+      "confidence": 0.4267,
+      "ok": true,
+      "kind": "feature"
+    },
+    {
+      "query": "Tell me about Member Two",
+      "expected": "m2",
+      "got": "m2",
+      "confidence": 0.5916,
+      "ok": true,
+      "kind": "name"
+    },
+    {
+      "query": "Who is M2?",
+      "expected": "m2",
+      "got": "m2",
+      "confidence": 0.5777,
+      "ok": true,
+      "kind": "alias"
+    },
+    {
+      "query": "Who is the AI and data engineer?",
+      "expected": "m2",
+      "got": "m2",
+      "confidence": 0.7747,
+      "ok": true,
+      "kind": "role"
+    },
+    {
+      "query": "Who knows Python?",
+      "expected": "m2",
+      "got": null,
+      "confidence": 0.1164,
+      "ok": false,
+      "kind": "skill"
+    },
+    {
+      "query": "Who built TF-IDF matching engine and no-match confidence threshold?",
+      "expected": "m2",
+      "got": "m2",
+      "confidence": 0.596,
+      "ok": true,
+      "kind": "feature"
+    },
+    {
+      "query": "Tell me about Member Three",
+      "expected": "m3",
+      "got": "m3",
+      "confidence": 0.6068,
+      "ok": true,
+      "kind": "name"
+    },
+    {
+      "query": "Who is M3?",
+      "expected": "m3",
+      "got": "m3",
+      "confidence": 0.5824,
+      "ok": true,
+      "kind": "alias"
+    },
+    {
+      "query": "Who is the API and integration engineer?",
+      "expected": "m3",
+      "got": "m3",
+      "confidence": 0.8953,
+      "ok": true,
+      "kind": "role"
+    },
+    {
+      "query": "Who knows FastAPI?",
+      "expected": "m3",
+      "got": "m3",
+      "confidence": 0.2876,
+      "ok": true,
+      "kind": "skill"
+    },
+    {
+      "query": "Who built FastAPI endpoints and mobile API contract?",
+      "expected": "m3",
+      "got": "m3",
+      "confidence": 0.526,
+      "ok": true,
+      "kind": "feature"
+    },
+    {
+      "query": "Tell me about Member Four",
+      "expected": "m4",
+      "got": "m4",
+      "confidence": 0.6009,
+      "ok": true,
+      "kind": "name"
+    },
+    {
+      "query": "Who is M4?",
+      "expected": "m4",
+      "got": "m4",
+      "confidence": 0.5784,
+      "ok": true,
+      "kind": "alias"
+    },
+    {
+      "query": "Who is the Mobile UI and navigation engineer?",
+      "expected": "m4",
+      "got": "m4",
+      "confidence": 0.384,
+      "ok": true,
+      "kind": "role"
+    },
+    {
+      "query": "Who knows React Native?",
+      "expected": "m4",
+      "got": null,
+      "confidence": 0.2223,
+      "ok": false,
+      "kind": "skill"
+    },
+    {
+      "query": "Who built ask the team screen, result screen, member directory and profile screens?",
+      "expected": "m4",
+      "got": "m4",
+      "confidence": 0.4129,
+      "ok": true,
+      "kind": "feature"
+    },
+    {
+      "query": "Tell me about Member Five",
+      "expected": "m5",
+      "got": "m5",
+      "confidence": 0.5933,
+      "ok": true,
+      "kind": "name"
+    },
+    {
+      "query": "Who is M5?",
+      "expected": "m5",
+      "got": "m5",
+      "confidence": 0.5761,
+      "ok": true,
+      "kind": "alias"
+    },
+    {
+      "query": "Who is the Offline and quality engineer?",
+      "expected": "m5",
+      "got": "m5",
+      "confidence": 0.8947,
+      "ok": true,
+      "kind": "role"
+    },
+    {
+      "query": "Who knows AsyncStorage?",
+      "expected": "m5",
+      "got": null,
+      "confidence": 0.2436,
+      "ok": false,
+      "kind": "skill"
+    },
+    {
+      "query": "Who built offline mode, cache and connection recovery?",
+      "expected": "m5",
+      "got": "m5",
+      "confidence": 0.4626,
+      "ok": true,
+      "kind": "feature"
+    },
+    {
+      "query": "What is the weather in Kigali today?",
+      "expected": null,
+      "got": null,
+      "confidence": 0.0437,
+      "ok": true,
+      "kind": "nomatch"
+    },
+    {
+      "query": "How do I cook rice?",
+      "expected": null,
+      "got": null,
+      "confidence": 0.0343,
+      "ok": true,
+      "kind": "nomatch"
+    },
+    {
+      "query": "Who won the football match yesterday?",
+      "expected": null,
+      "got": null,
+      "confidence": 0.2108,
+      "ok": true,
+      "kind": "nomatch"
+    },
+    {
+      "query": "Tell me a joke",
+      "expected": null,
+      "got": null,
+      "confidence": 0.0,
+      "ok": true,
+      "kind": "nomatch"
+    },
+    {
+      "query": "What is the price of potatoes?",
+      "expected": null,
+      "got": null,
+      "confidence": 0.0391,
+      "ok": true,
+      "kind": "nomatch"
+    },
+    {
+      "query": "asdf qwerty zxcv",
+      "expected": null,
+      "got": null,
+      "confidence": 0.0358,
+      "ok": true,
+      "kind": "nomatch"
+    },
+    {
+      "query": "Who is the president of France?",
+      "expected": null,
+      "got": null,
+      "confidence": 0.0577,
+      "ok": true,
+      "kind": "nomatch"
+    },
+    {
+      "query": "Explain quantum physics",
+      "expected": null,
+      "got": null,
+      "confidence": 0.0284,
+      "ok": true,
+      "kind": "nomatch"
+    },
+    {
+      "query": "who",
+      "expected": null,
+      "got": null,
+      "confidence": 0.0,
+      "ok": true,
+      "kind": "nomatch"
+    },
+    {
+      "query": "Tell me about the team",
+      "expected": null,
+      "got": null,
+      "confidence": 0.0,
+      "ok": true,
+      "kind": "nomatch"
+    }
+  ]
+}
